@@ -174,3 +174,56 @@ main{
     margin-top: 50px;
     text-align: center;
 }
+/* contact Section */
+.contact{
+    display: flex;
+    gap: 100px;
+    padding: 130px 200px;
+    background-color: #FFF8F3;
+    margin-top: 130px;
+} 
+
+.contact-para{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.contact input[type="text"],input[type="email"],textarea{
+    margin-bottom: 30px;
+    width: 100%;
+    border: 0;
+    padding: 18px 24px;
+}
+.contact input{
+    height: 64px;
+}
+.contact textarea{
+    resize: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
