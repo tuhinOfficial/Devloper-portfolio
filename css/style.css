@@ -7,12 +7,13 @@
 }
 .btn-primary{
     background-color: #FD6E0A;
-    height: 50px;
+    height: 64px;
     border: 0px;
     border-radius: 5px;
     font-size: 20px;
-    color: antiquewhite;
-    padding: 0 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 18px 35px;
 }
 /* Header And Navigation Styles */
 .header{
@@ -41,6 +42,7 @@ nav ul{
 nav ul li{
     margin-left: 50px;
 }
+
 /* Banner Section */
 .banner{
     display: flex;
@@ -62,13 +64,7 @@ nav ul li{
     font-size: 18px;
     margin-bottom: 20px;
 }
-.cv-button{
-    padding: 18px 35px;
-    font-size: 20px;
-    font-weight: 700;
-    background-color: #FD6E0A;
-    border: none;
-}
+
 
 /* main section styles */
 
@@ -105,4 +101,76 @@ main{
     font-size: 20px;
     font-weight: 700;
     color: #474747;
+}
+/* What I Do Styles */
+
+.what-i-do{
+    margin-top: 130px;
+    
+}
+.skill-header{
+    margin-bottom: 70px;
+    font-size: 24px;
+    text-align: center;
+}
+.skills{
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px rgb(0 0 0 / 6%);
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill-name{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+.skill-description{
+    color: #474747;
+}
+
+/* resume styles */
+.resume{
+    margin-top: 130px;
+}
+.resume-header{
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .item-header{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume .item-sub-header{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.item-content{
+    color: #757575;
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
 }
